@@ -1,11 +1,13 @@
 import React from 'react'
-import Movies from './Movies'
+import Products from './Products'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Nav from './Nav'
 
 function App() {
   return (
-    <div>
-    <Movies />
-    </div>
+    <BrowserRouter>
+    <Nav />
+    </BrowserRouter>
   )
 }
 
